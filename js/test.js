@@ -78,8 +78,8 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
-                        console.log("YOU WIN, CONGRATS!");
-                        document.location.reload();
+                        alert("YOU WIN, CONGRATS!");
+                         document.location.reload();     
                     
 }                }
             }
@@ -130,6 +130,12 @@ function drawBricks() {
         }
     }
 }
+function drawGameOver(){
+    ctx.font = "55px mosk";
+    ctx.fillStyle = brickColor;
+    ctx.fillText("GAME OVER",canvas.width/2,canvas.height/2);
+
+}
 function drawScore() {
     ctx.font = "16px mosk";
     ctx.fillStyle = brick_color;
@@ -163,9 +169,13 @@ function draw() {
         }
         else {
             lives--;
+            if(lives<0) lives = 0;
             if(!lives) {
                 console.log("GAME OVER");
-                document.location.reload();
+                setTimeout(function(){
+                         document.location.reload();     
+                },10000)
+               
             }
             else {
                 x = canvas.width/2;
