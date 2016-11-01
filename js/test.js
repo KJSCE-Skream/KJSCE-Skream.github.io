@@ -22,7 +22,7 @@ var lives = 3;
 var offsetWidth = canvas.getBoundingClientRect();
 var brick_color = "#AAA";
 var eventName = ["Football","BasketBall ","Volley Ball","Cricket","Badminton","Lawn Tennis","Carrom",
-    "Atheletics","Throw Ball","Squash","Table Tennis","Informals","Box Cricket","Pickle Ball","Chess"];
+    "Athletics","Throw Ball","Squash","Table Tennis","Informals","Box Cricket","Pickle Ball","Chess"];
 var eventColor= ["#2980b9","#3498db","#f39c12","#f1c40f"];
 var textColor = "#000"
 var bricks = [];
