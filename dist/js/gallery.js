@@ -9,7 +9,7 @@ var Gallery = (function($){
 	var carousel;
 	function init(){
 		cacheDOM();
-		swipeSupport();
+		//swipeSupport();
 		return "Masti";
 	}
 
