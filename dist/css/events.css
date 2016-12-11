@@ -1,0 +1,226 @@
+body {
+  overflow: hidden; }
+
+#events {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10000; }
+
+#paynow{
+  padding: 3px !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  background: pink !important; 
+  width: 30%;
+  color: black;
+}
+
+.dropdown {
+  float: left !important; }
+
+#detail-toggle {
+  float: right !important; }
+
+#myTabs {
+  margin-top: 10% !important;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.nav-tabs .active {
+  background-color: rgba(0, 0, 0, 0.25); }
+
+.video video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%); }
+
+.dropdown-menu {
+  background: rgba(255, 255, 255, 0.8) !important;
+  color: white; }
+
+#myTabContent {
+  max-height: 35vh;
+  overflow-y: auto;
+  min-height: 35vh;
+  background: rgba(255, 255, 255, 0.7); }
+
+::-webkit-scrollbar {
+  width: 4px; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px black;
+  background: white; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+  background: #f9a41b; }
+
+#rules {
+  margin-bottom: 10%; }
+
+#footer-nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0; }
+
+.current-sport {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  float: left;
+  position: absolute;
+  top: 12%;
+  left: 7%;
+  padding-left: 35px;
+  padding-right: 35px;
+  z-index: 10000; }
+
+#EventTypes {
+  position: fixed;
+  top: 13%;
+  background-color: transparent;
+  width: 80%;
+  overflow: hidden;
+  border: 0; }
+  #EventTypes li {
+    float: right; }
+
+#home, #profile {
+  height: 100vh;
+  overflow: hidden; }
+
+#myTabContent {
+  overflow-x: hidden; }
+
+.slides {
+  background: tranparent;
+  height: 100vh;
+  width: 200%; }
+
+.slides-container {
+  width: 600%;
+  transform: translate(0%, 0%);
+  transition: all 1s ease-in-out; }
+  .slides-container .slide1, .slides-container .slide2, .slides-container .slide3 {
+    background: transparent;
+    height: 100vh;
+    width: 700px;
+    display: inline-block;
+    transform: translate(0%, 0%);
+    transition: all 1s ease-in-out; }
+  .slides-container .slide2 {
+    background: transparent; }
+
+.slide-nav li {
+  height: 5vh;
+  width: 10%; }
+
+.carousel-indicators {
+  bottom: 10px;
+  color: black;
+  font-weight: 100;
+  z-index: 10000;
+  height: 105px;
+  width: 100%;
+  cursor: pointer;
+  background: #d1d2d4;
+  margin: 0px;
+  left: 0px; }
+  .carousel-indicators div {
+    display: inline-block;
+    height: 3vh;
+    width: 20%;
+    float: left; }
+  .carousel-indicators .active {
+    background: #b7b8bb; }
+
+.carousel-control {
+  top: 250px;
+  bottom: 200px;  
+  color: black; 
+  }
+  .carousel-control:hover {
+    color: #eb8122; }
+
+/*# sourceMappingURL=events.css.map */
+
+
+.caret{
+  color:black;
+}
+
+
+i, cite, em, var, address, dfn {
+    font-style: italic;
+    color : black;
+}
+
+.nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover{
+  color : black!important;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next
+{
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 420px;)
+{
+  #bb{
+    background-image: url(assets/images/events/basketball.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #fb{
+    background-image: url(assets/images/events/football.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #ath{
+    background-image: url(assets/images/events/athletics.jpg);background-size: cover; background-repeat: no-repeat;
+  }
+  #ch{
+    background-image: url(assets/images/events/chess.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #vb{
+    background-image: url(assets/images/events/volleyball.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #sq{
+    background-image: url(assets/images/events/squash.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #bd{
+    background-image: url(assets/images/events/badminton.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #ten{
+    background-image: url(assets/images/events/tennis.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #fut{
+    background-image: url(assets/images/events/football.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #bc{
+    background-image: url(assets/images/events/cricket.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #tt{
+    background-image: url(assets/images/events/TT.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #cric{
+    background-image: url(assets/images/events/cricket.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+  #car{
+    background-image: url(assets/images/events/carrom.jpg); background-size: cover; background-repeat: no-repeat;
+  }
+}
