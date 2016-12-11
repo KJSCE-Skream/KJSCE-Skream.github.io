@@ -18,7 +18,9 @@ body, html, nav, header {
   font-family: "mosk";
   font-size: 100%;
   overflow-x: hidden; }
-
+body{
+  overflow: hidden !important;
+}
 p {
   font-family: "mosk";
   wegiht: 200; }
