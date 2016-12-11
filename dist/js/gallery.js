@@ -6,16 +6,20 @@ var Gallery = (function($){
 	var imgThumbnail;
 	var thumbnailContainer;
 	var test;
+	var carousel;
 	function init(){
 		cacheDOM();
+		swipeSupport();
 		return "Masti";
 	}
 
 	function cacheDOM(){
-		prevImgThumb = $("#prev");
-		nextImgThumb = $("#next");
-		thumbnailContainer = $(".cover-card");
-		thumbnailContainer.on("click",HandleImageClick);
+		// prevImgThumb = $("#prev");
+		// nextImgThumb = $("#next");
+		// thumbnailContainer = $(".cover-card");
+		// thumbnailContainer.on("click",HandleImageClick);
+		Carousel = $("myGallery");
+
 
 	}
 	function HandleImageClick(e){
@@ -30,7 +34,16 @@ var Gallery = (function($){
 		//console.log(e.currentTarget;
 
 	}
-
+	function swipeSupport(){
+		$(document).ready(function() {  
+   Carousel.swiperight(function() {  
+      Carousel.carousel('prev');  
+    });  
+   Carousel.swipeleft(function() {  
+      Carousel.carousel('next');  
+   });  
+});  
+	}
 	function changeThumbnail(pSrc,nSrc){
 		prevImgThumb.attr("src",pSrc);
 		nextImgThumb.attr("src",nSrc);
