@@ -14,13 +14,29 @@ body {
   left: 0;
   z-index: 10000; }
 
-#paynow{
-  padding: 3px !important;
-  display: inline-block !important;
-  vertical-align: middle !important;
-  background: pink !important; 
-  width: 30%;
-  color: black;
+#paynow {
+    color: black;
+    display: inline;
+    position: fixed;
+    top: 13%;
+    right:2%;
+    text-align: center
+    letter-spacing: 1px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0 1px 1px;
+    padding: 10px;
+    padding-right:35px;
+    padding-left: 35px;
+    border: 1px solid rgba(186, 160, 19, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.3);
+    font-family: mosk;
+    line-height: 1.1em;
+    letter-spacing: 0px;
+    font-weight: none;
+}
+#paynow:hover{
+    background: rgba(0,0,0,0.5
+        );
 }
 
 .dropdown {
