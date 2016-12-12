@@ -1,7 +1,7 @@
 @font-face {
   font-family: "mosk";
   src: url("..../assets/font/MB700.ttf");
-  src: url("../../assets/font/MUB900.ttf");
+  src: url("../../assets/font/MB900.ttf");
   src: url("../../assets/font/MB700.ttf");
   src: url("../../assets/font/MBB800.ttf");
   src: url("../../assets/font/MSB600.ttf");
@@ -13,7 +13,48 @@
 
  @font-face{
  	font-family: "mosk1";
- 	src: url("../../assets/font/MUB900.ttf");
+ 	src: url("../../assets/font/MB900.ttf");
+ }
+
+
+ .social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+
+    color: black;
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+ .center-block{
+    position: absolute;
+    bottom: 78px;
+    margin-left: 1%;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #c1181b;
+ }
+ #social-em:hover {
+     color: #3d6d95;
  }
 .margin-zero {
   margin-left: 0 !important; }
