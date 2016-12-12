@@ -10,6 +10,11 @@
   src: url("../../assets/font/ML300.ttf");
   src: url("../../assets/font/ML200.ttf");
   src: url("../../assets/font/MT100.ttf"); }
+
+ @font-face{
+ 	font-family: "mosk1";
+ 	src: url("../../assets/font/MUB900.ttf");
+ }
 .margin-zero {
   margin-left: 0 !important; }
 
@@ -180,6 +185,8 @@ div#fuck {
       .ext-link ul li a {
         color: #4664a4;
         font-size: 20px;
+        font-family: mosk1;
+        font-weight: 900;
         text-decoration: none; }
         .ext-link ul li a:hover {
           color: #97b1dc; }
