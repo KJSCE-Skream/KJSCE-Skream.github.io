@@ -28,7 +28,7 @@
 .side-bar li a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: #e6e6e6;
 }
 
 .side-bar li a:hover {
