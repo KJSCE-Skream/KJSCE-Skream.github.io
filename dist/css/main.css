@@ -238,7 +238,8 @@ div#fuck {
       display: inline;
       margin: 10px; }
       .ext-link ul li a {
-        color: #4664a4;
+        /*color: #4664a4;*/
+        color:#fff;
         font-size: 20px;
         font-family: mosk1;
         font-weight: 900;
@@ -273,17 +274,19 @@ padding-top: 10px;}
   position: fixed;
   top: 10%;
   left: 0;
-  z-index: 100;
+  z-index: 1000;
   visibility: hidden;
   width: 250px;
   transform: translate(-300px, 0px);
   height: auto;
-  background: transparent;
+  /*background: transparent;*/
+  background:#1a1a1a;
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
 
 #container {
-  background: #1a1a1a;
+  /*background: #1a1a1a;*/
+  background: #000;
   margin: 0;
   padding: 0; }
 
@@ -626,4 +629,26 @@ footer {
     margin-left: -20%;
     margin-right: 0%; } }
 
+body
+{
+  color:#fff;
+  background:#000;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em 0;
+    padding: 0; 
+}
+.featurette-heading
+{
+  background: #1a1a1a ;
+}
+.headline h2
+{
+  background: #1a1a1a !important;
+}
 /*# sourceMappingURL=main.css.map */
