@@ -296,8 +296,8 @@ padding-top: 10px;}
   width: 250px;
   transform: translate(-300px, 0px);
   height: auto;
-  /*background: transparent;*/
-  background:#1a1a1a;
+  background: transparent;
+  /*background:#1a1a1a;*/
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
 
