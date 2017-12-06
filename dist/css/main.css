@@ -15,6 +15,23 @@
  	font-family: "mosk1";
  	src: url("../../assets/font/MB900.ttf");
  }
+@font-face {
+    font-family: Uni Sans;
+    src: url("../../assets/font/Uni.Sans/Uni Sans.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Uni Sans;
+    src: url("../../assets/font/Uni.Sans/Uni Sans Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Fold21;
+    src: url("../../assets/font/Fold No.21 Mono/Degarism Studio - Fold-No.21-Mono.otf");
+    font-weight: normal;
+}
 
 #center
 {
@@ -74,18 +91,18 @@
 
 body, html, nav, header {
   width: auto;
-  font-family: "mosk";
+  font-family: "Uni Sans";
   font-size: 100%;
   overflow-x: hidden; }
 body{
   overflow: hidden !important;
 }
 p {
-  font-family: "mosk";
+  font-family: "Uni Sans";
   wegiht: 200; }
 
-h1 {
-  font-family: "mosk"; }
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Fold21" !important; }
 
 nav {
   height: auto;
