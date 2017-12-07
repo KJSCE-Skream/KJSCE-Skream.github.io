@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
 }
 .center1
 {
@@ -150,7 +150,7 @@ nav {
   margin-left: -16%; }
 
 .navbar {
-  background: #1a1a1a !important;
+  background: linear-gradient(#333, #000);
   height: 6vh !important; }
 
 .navbar-container {
@@ -354,7 +354,7 @@ footer {
   position: relative;
   padding: 20px;
   background-color: #000;
-  height: 70vh;
+  height: 50vh;
 /*  line-height: 70vh;
   white-space: nowrap;*/
   width: auto; }
@@ -392,9 +392,9 @@ footer {
   color: #fff; }
 
 .hero {
-  height: 100vh; 
+  height: 70vh; 
   background-color: #000;
-  padding-top: 6vh;
+  margin-top: 6vh;
 }
 
 @media (min-width: 2000px) and (max-width: 2640px) {
