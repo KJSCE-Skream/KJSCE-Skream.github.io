@@ -115,61 +115,67 @@
 						<h6 style="text-align: right;"> - Heywood Broun</h6>
 					</div>
 					<div id="football" class="tab-pane fade">
-						<h3>Football</h3>
-						<h6><strong style="color: #ff8832;">NOTE:</strong> Open only to engineering colleges.</h6>
-						<ul class="nav nav-tabs">
-							<li class="active"><a data-toggle="tab" href="#football_boys">Boys</a></li>
-							<li><a data-toggle="tab" href="#football_girls">Girls</a></li>
-						</ul>
-						<div class="tab-content">
-							<div id="football_boys" class="tab-pane fade in active">
-								<h4>Rules</h4>
-								<ul>
-									<li>No. of players per team: 11+5</li>
-									<li>3 substitutions are allowed</li>
-									<li>Half length: 20 mins, with a 5 minute break between halves</li>
-								</ul>
-								<h4>Entry Fee</h4>
-								<ul>
-									<li>Rs. 2,800</li>
-								</ul>
-								<h4>Prize Money</h4>
-								<ul>
-									<li>1st Place: Rs. 27,000</li>
-									<li>2nd Place: Rs. 12,000</li>
-								</ul>
-								<h4>Event Heads</h4>
-								<ul>
-									<li>Shardul: 7588247733</li>
-									<li>Saiyam: 9821600650</li>
-								</ul>
-							</div>
-							<div id="football_girls" class="tab-pane fade">
-								<h4>Rules</h4>
-								<ul>
-									<li>No. of players per team: 5+2</li>
-									<li>Rolling substitutes are allowed</li>
-									<li>half length is of 7 minutes</li>
-								</ul>
-								<h4>Entry Fee</h4>
-								<ul>
-									<li>Rs. 700</li>
-								</ul>
-								<h4>Prize Money</h4>
-								<ul>
-									<li>1st Place: Rs. 6,000</li>
-									<li>2nd Place: Rs. 2,000</li>
-								</ul>
-								<h4>Event Heads</h4>
-								<ul>
-									<li>Ashanka: 9821694183</li>
-									<li>Krupa: 9004825485</li>
-								</ul>
+						<div class="left" id="left_football"></div>
+						<div class="right">
+							<h3 class="heading">Football</h3>
+							<h6><strong style="color: #ff8832;">NOTE:</strong> Open only to engineering colleges.</h6>
+							<ul class="nav nav-tabs">
+								<li class="active"><a data-toggle="tab" href="#football_boys">Boys</a></li>
+								<li><a data-toggle="tab" href="#football_girls">Girls</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="football_boys" class="tab-pane fade in active">
+									<h4>Rules</h4>
+									<ul>
+										<li>No. of players per team: 11+5</li>
+										<li>3 substitutions are allowed</li>
+										<li>Half length: 20 mins, with a 5 minute break between halves</li>
+									</ul>
+									<h4>Entry Fee</h4>
+									<ul>
+										<li>Rs. 2,800</li>
+									</ul>
+									<h4>Prize Money</h4>
+									<ul>
+										<li>1st Place: Rs. 27,000</li>
+										<li>2nd Place: Rs. 12,000</li>
+									</ul>
+									<h4>Event Heads</h4>
+									<ul>
+										<li>Shardul: 7588247733</li>
+										<li>Saiyam: 9821600650</li>
+									</ul>
+								</div>
+								<div id="football_girls" class="tab-pane fade">
+									<h4>Rules</h4>
+									<ul>
+										<li>No. of players per team: 5+2</li>
+										<li>Rolling substitutes are allowed</li>
+										<li>half length is of 7 minutes</li>
+									</ul>
+									<h4>Entry Fee</h4>
+									<ul>
+										<li>Rs. 700</li>
+									</ul>
+									<h4>Prize Money</h4>
+									<ul>
+										<li>1st Place: Rs. 6,000</li>
+										<li>2nd Place: Rs. 2,000</li>
+									</ul>
+									<h4>Event Heads</h4>
+									<ul>
+										<li>Ashanka: 9821694183</li>
+										<li>Krupa: 9004825485</li>
+									</ul>
+								</div>
 							</div>
 						</div>
+						<div class="clearfix"></div>
 					</div>
 					<div id="cricket" class="tab-pane fade">
-						<h3>Cricket</h3>
+						<div class="left"></div>
+						<div class="right">
+						<h3 class="heading">Cricket</h3>
 						<ul class="nav nav-tabs">
 							<li class="active"><a data-toggle="tab" href="#cricket_boys">Boys</a></li>
 							<li><a class="isDisabled" data-toggle="tab" href="#cricket_girls">Girls</a></li>
@@ -198,9 +204,13 @@
 								</ul>
 							</div>
 						</div>
+						</div>
+						<div class="clearfix"></div>
 					</div>
 					<div id="badminton" class="tab-pane fade">
-						<h3>Badminton</h3>
+						<div class="left"></div>
+						<div class="right">
+						<h3 class="heading">Badminton</h3>
 						<h6><strong style="color: #ff8832;">NOTE:</strong> Gum Soles are compulsory</h6>
 						<ul class="nav nav-tabs">
 							<li class="active"><a data-toggle="tab" href="#badminton_boys">Boys</a></li>
@@ -267,6 +277,8 @@
 							</div>
 						</div>
 					</div>
+					<div class="clearfix"></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -291,7 +303,7 @@
 <!-- <script src="dist/js/paynow.min.js"></script>
 -->
 <script type="text/javascript">$(".dropdown-menu li a").click(function(){
-  $(".dropdown-toggle:first-child").html($(this).text()+' <span class="caret"></span>');
+	$(".dropdown-toggle:first-child").html($(this).text()+' <span class="caret"></span>');
 });</script>
 </body>
 </html>

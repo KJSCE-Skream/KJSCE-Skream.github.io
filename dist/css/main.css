@@ -111,7 +111,7 @@ body::-webkit-scrollbar-thumb
 
 body, html, nav, header {
   width: auto;
-  font-family: "Uni Sans";
+  font-family: "Uni Sans" !important;
   font-size: 100%;
   overflow-x: hidden; }
 body{
