@@ -5,9 +5,13 @@
 }
 body
 {
-	/*min-height:100%;*/
+	min-height:100vh;
 	background-color: #000 !important;
 	color: #fff !important;
+}
+#container, #main
+{
+	min-height:100vh;
 }
 .heading
 {
@@ -40,13 +44,6 @@ body
 	height: 70vh;
 	background: transparent;
 	float: left;
-}
-#left_football
-{
-	background-image: url('../../assets/images/events/test1.jpg');
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 .right
 {
@@ -81,7 +78,7 @@ body
   color: currentColor;
   cursor: not-allowed;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.25;
   text-decoration: none;
 }
 
@@ -137,4 +134,106 @@ h4
 .tab-content .nav-tabs>li.active>a
 {
 	color: #ff8832 !important;
+}
+.dropdown-menu>li
+{
+	border: 1px solid #333 !important;
+}
+#left_football
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_cricket
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_badminton
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_rinkfootball
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_throwball
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_carrom
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_boxcricket
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_squash
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_lawntennis
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_basketball
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_tabletennis
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_athletics
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_volleyball
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#left_chess
+{
+	background-image: url('../../assets/images/events/test1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
