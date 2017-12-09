@@ -68,6 +68,7 @@ body {
   color: white; }
 
 #myTabContent {
+  color: #000;
   max-height: 35vh;
   overflow-y: auto;
   min-height: 35vh;
@@ -187,6 +188,11 @@ body {
 i, cite, em, var, address, dfn {
     font-style: italic;
     color : black;
+}
+
+i
+{
+  color: #fff;
 }
 
 .nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover{
