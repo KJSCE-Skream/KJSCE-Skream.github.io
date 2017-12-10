@@ -109,6 +109,14 @@ h4
 	border:0px !important;
 	border-radius: 5px !important;
 }
+.menu>li>a, .menu>li.active>a, .menu>li.active>a:focus, .menu>li.active>a:hover
+{
+	cursor: pointer !important;
+	background: #ff8832 !important;
+	color: #fff !important;
+	border:0px !important;
+	border-radius: 5px !important;	
+}
 
 .dropdown-menu, .dropdown-menu>li>a
 {
@@ -125,6 +133,11 @@ h4
 .nav-tabs>li.active>a
 {
 	color: #ff8832 !important;
+}
+
+.menu>li.active>a
+{
+	color: #fff !important;
 }
 
 .tab-content .nav-tabs>li:first-child
