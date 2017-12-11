@@ -197,13 +197,13 @@ h1 {
   text-align: center; }
 
 #parallax, #parallax2 {
-  background-image: url("../../assets/images/kjsce1.jpg");
+  background-image: url("../../assets/images/about kjsce.jpg");
   background-attachment: fixed;
   background-position: center;
   height: 40vh; }
 
 #parallax2 {
-  background-image: url("../../assets/images/skream.jpg");
+  background-image: url("../../assets/images/about skream.jpg");
   background-size: cover; }
 
 .container .side-bar {
