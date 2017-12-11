@@ -318,7 +318,7 @@ padding-top: 10px;}
   transform: translate(-300px, 0px);
   height: auto;
   background: transparent;
-  /*background:#1a1a1a;*/
+  /*background:#000;*/
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
 
@@ -365,6 +365,13 @@ footer {
         /*line-height: 35vh;*/
     }
 }
+@media only screen and (max-width: 400px) {
+    .container .side-bar
+    {
+      background: #000;
+      width: 200px;
+    }
+  }
 .ray-container {
   height: 100%;
   width: auto;
