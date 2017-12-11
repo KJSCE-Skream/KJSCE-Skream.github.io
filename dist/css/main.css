@@ -200,6 +200,7 @@ h1 {
   background-image: url("../../assets/images/about kjsce.jpg");
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
   height: 40vh; }
 
 #parallax2 {
